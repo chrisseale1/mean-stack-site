@@ -1,0 +1,30 @@
+{
+  "name": "mean-stack-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies":{
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken":"*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisseale1/mean-stack-site.git"
+  },
+  "author": "Chris Seale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisseale1/mean-stack-site/issues"
+  },
+  "homepage": "https://github.com/chrisseale1/mean-stack-site#readme"
+}
